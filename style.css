@@ -1,0 +1,88 @@
+* {box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+    
+    /* Add padding to containers */
+    
+    .form{
+        width: 50%;
+    
+    }
+    
+    .ff{
+        display: flex;
+        flex-direction: row;
+    }
+    .container {
+      padding: 16px;
+    }
+    
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #eedd82;
+      border-radius: 15px;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+    
+    /* Overwrite default styles of hr */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+    /* Set a style for the submit/register button */
+    .registerbtn {
+      background-color: black;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      border-radius: 15px;
+    }
+    
+    .registerbtn:hover {
+      opacity:1;
+    }
+    
+    /* Add a blue text color to links */
+    a {
+      color: dodgerblue;
+    }
+    
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+      background-color: white;
+      text-align: center;
+    }
+    
+    table{
+        width: 100%;
+        border-radius: 15px;
+        border: none;
+    }
+    table th{
+        background-color: black;
+        color: white;
+    }
+    
+    table tr th{
+        padding: 1%;
+        border-radius: 15px;
+    }
+    
+    table tr td{
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 15px;
+    }
