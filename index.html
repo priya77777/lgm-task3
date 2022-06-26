@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="XA-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration From</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="file.js"></script>
+    </head>
+
+    <body>
+        <div class="ff">
+            <div class="form">
+
+                <div class="container">
+                    <h1>Registration Form</h1>
+
+                    <hr>
+
+                    <label for="email"><b>Name</b></label>
+                    <input type="text" placeholder="Enter first name" name="fst name" id="fname" required>
+
+                    <label for="email"><b>DOB</b></label>
+                    <input type="text" placeholder="Enter DOB" name="1st name" id="1name" required>
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                    <label for="email"><b>Phone no.</b></label>
+                    <input type="text" placeholder="Enter Phone no." name="college" id="college" required>
+
+                    <hr>
+                    <button class="registerbtn" onclick="AddRow()" id="btn">Register</button>
+                </div>
+            
+            </div>
+            <div class="form">
+                <table border="4" id="show">
+                    <thead>
+                        <tr>
+                            <th> First Name</th>
+                            <th> DOB</th>
+                            <th> Email</th>
+                            <th> Phone no.</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            
+        </div>
+    </body>
+</html>
